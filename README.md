@@ -6,6 +6,8 @@ A fast, lightweight terminal system monitor built in Rust.
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
 
+![Dashy - System Monitor Dashboard](/screenshots/dashy_screenshot.png?raw=true "Dashy - Dashboard")
+
 ## Features
 
 - **CPU Monitor** - Real-time CPU usage with 60-second sparkline history
@@ -55,35 +57,16 @@ dashy
 
 ### Keyboard Shortcuts
 
-| Key | Action |
-|-----|--------|
-| `q` / `Esc` | Quit |
-| `Ctrl+C` | Force quit |
-| `j` / `↓` | Select next port |
-| `k` / `↑` | Select previous port |
-| `Enter` | Kill selected process (opens confirmation) |
-| `Tab` | Toggle Yes/No in confirmation dialog |
-| `y` | Quick confirm kill |
-| `n` | Cancel dialog |
-
-## Screenshots
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ CPU: 12.3%                        │ Memory                                  │
-│ ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁    │ ████████░░░░░░░░░░  8.2 GB / 16.0 GB   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ Disk I/O                          │ Network I/O                             │
-│  Read:  12.5 MB/s                 │  RX: 1.2 MB/s                           │
-│  Write: 8.3 MB/s                  │  TX: 256 KB/s                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ Open Ports - [k/j] navigate, [Enter] kill                                   │
-│ Port       Process                                                          │
-│ 3000       node                                                             │
-│ 5432       postgres                                                         │
-│ 8080       java                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+| Key         | Action                                     |
+| ----------- | ------------------------------------------ |
+| `q` / `Esc` | Quit                                       |
+| `Ctrl+C`    | Force quit                                 |
+| `j` / `↓`   | Select next port                           |
+| `k` / `↑`   | Select previous port                       |
+| `Enter`     | Kill selected process (opens confirmation) |
+| `Tab`       | Toggle Yes/No in confirmation dialog       |
+| `y`         | Quick confirm kill                         |
+| `n`         | Cancel dialog                              |
 
 ## Requirements
 
